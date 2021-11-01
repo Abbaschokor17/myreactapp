@@ -27,7 +27,7 @@ export const TRIPS =
         category: '',
         label:'',
         price:'',
-        featured: false,
+        featured: true,
         description:'Jeita grotto was chosen as an official finalist representing Lebanon and selected as one of the 14 worldwide landmarks for new 7 wonders of nature competition.'
         },
         {

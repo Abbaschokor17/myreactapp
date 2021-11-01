@@ -1,3 +1,5 @@
+
+
 .row-header{
   margin:0px auto;
   padding:0px auto;
@@ -30,10 +32,164 @@ address{
 }
 
 .navbar-dark {
-  background-color:#0000CD;
+  background-color:lightskyblue;
 }
 
 .checked {
 color: orange;
 }
 
+.headerPage {
+  display: flex;
+  background-image: url("image_header/beach.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  max-height: 600px;
+  max-width: 100%;
+  text-align: center;
+  padding: 10em;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title-description {
+  width: 50%;
+  text-shadow: 2px 2px #000;
+  flex-direction: column;
+  color: white;
+}
+.travel-recommendation h3 {
+  padding: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.travel-recommendation {
+  margin: 10px;
+}
+#feature {
+  text-align: center;
+  font-size: 20px;
+}
+
+.display-icon {
+  text-align: center;
+}
+.our-trips h3 {
+  font-weight: bold;
+}
+
+
+.our-trips {
+  background-color: lightskyblue;
+  margin-top: 50px;
+  padding: 3em;
+}
+
+
+.our-journey h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.our-journey {
+  margin-top: 50px;
+}
+
+
+.our-clients-review h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.our-clients-review {
+  margin-top: 50px;
+  padding: 4em;
+}
+#number {
+  text-align: center;
+  font-weight: bold;
+}
+
+#description {
+  text-align: center;
+  font-size: 30px;
+}
+#aboutUs {
+  background-color: lightskyblue;
+  margin-top: 50px;
+  padding: 5em;
+}
+
+.info {
+  font-weight: bold;
+}
+
+.contact-info h3 {
+  font-weight: bold;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.social-media h4 {
+  font-weight: bold;
+}
+
+.social-media {
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+
+.social-media .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  margin: 5px 2px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+.about-info h3 {
+  font-weight: bold;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  justify-content: center;
+  margin-top: 1em;
+}

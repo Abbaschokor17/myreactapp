@@ -5,7 +5,7 @@ export const LEADERS = [
       image: '/assets/images/Tokyo.png',
       designation: 'Founder and Owner',
       abbr: 'O',
-      featured: true,
+      featured: false,
       description: "“By being on Guide Trip Lebanon and having great reviews, people can discover our company where they may not have before.”"
     },
     {

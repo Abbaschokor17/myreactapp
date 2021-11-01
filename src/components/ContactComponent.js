@@ -74,8 +74,9 @@ class Contact extends Component {
     }
 
     render() {
-        const errors = this.validate(this.state.firstname, this.state.lastname, this.state.telnum, this.state.email);
 
+        const errors = this.validate(this.state.firstname, this.state.lastname, this.state.telnum, this.state.email);
+        let ourLocationMap = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6623.891535755304!2d35.485083576082936!3d33.891050528618344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f1727dfc2b34f%3A0xa1f25c5ff5caec04!2sSanayeh%2C%20Beirut!5e0!3m2!1sen!2slb!4v1635763213662!5m2!1sen!2slb"width="400" height="300"></iframe>';
         return(
             <div className="container">
                 <div className="row">
@@ -91,19 +92,21 @@ class Contact extends Component {
                 <div className="row row-content">
                     <div className="col-12">
                     <h3>Location Information</h3>
+                    
                     </div>
                     <div className="col-12 col-sm-4 offset-sm-1">
                             <h5>Our Address</h5>
                             <address>
-                            Road 101 -sarba<br />
-                            Jounieh<br />
-                            <i className="fa fa-phone"></i>: +81 690128<br />
-                            <i className="fa fa-fax"></i>: +71 900009<br />
-                            <i className="fa fa-envelope"></i>: <a href="GuideLebanon@trips.com">GuideLebanon@trips.comt</a>
+                            Av. A place somewhere,<br />
+                            899<br />
+                            <i className="fa fa-phone"></i>: (55) 9999-99999<br />
+                            <i className="fa fa-fax"></i>: (66) 9999-99999<br />
+                            <i className="fa fa-envelope"></i>: <a href="GuideLebanon@trips.com">GuideLebanon@trips.com</a>
                             </address>
                     </div>
                     <div className="col-12 col-sm-6 offset-sm-1">
                         <h5>Map of our Location</h5>
+                        <div dangerouslySetInnerHTML={{__html: ourLocationMap}}></div>
                     </div>
                     <div className="col-12 col-sm-11 offset-sm-1">
                         <div className="btn-group" role="group">

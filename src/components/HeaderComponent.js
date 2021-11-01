@@ -43,7 +43,7 @@ class Header extends Component {
                         <NavbarToggler onClick={this.toggleNav} />
                         <NavbarBrand className="mr-auto" href="/"><img src='assets/images/logo.png' height="30" width="41" alt='Guide Trip Lebanon' /></NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar>
+                            <Nav navbar className="navbar-dark bg-dark">
                             <NavItem>
                                 <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-lg"></span> Home</NavLink>
                             </NavItem>
@@ -59,7 +59,7 @@ class Header extends Component {
                             </Nav>
                         </Collapse>
                     </div>
-                    <Nav className="ml-auto" navbar>
+                    <Nav className="ml-auto navbar-dark bg-dark" navbar>
                         <NavItem>
                             <Button outline onClick={this.toggleModal}>
                                 <span className="fa fa-sign-in fa-lg"></span> LogIn
@@ -67,16 +67,14 @@ class Header extends Component {
                         </NavItem>
                     </Nav>
                 </Navbar>
-                <Jumbotron>
-                    <div className="container">
-                        <div className="row row-header">
-                            <div className="col-12 col-sm-6">
-                                <h1>Guide Trip Lebanon</h1>
-                                <p>Where you can find the best places to visit!</p>
-                            </div>
-                        </div>
-                    </div>
-                </Jumbotron>
+                <div className="headerPage" >
+                   <div className="header-title-description">
+                  <h1>Guide Trip Lebanon</h1>
+                    <h5>
+                    Where you can find the best places to visit!
+                    </h5>
+                  </div>
+                </div>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
                     <ModalBody>
