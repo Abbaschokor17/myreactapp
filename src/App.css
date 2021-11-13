@@ -32,7 +32,7 @@ address{
 }
 
 .navbar-dark {
-  background-color:lightskyblue;
+  background-color:rgb(26, 120, 179);
 }
 
 .checked {
@@ -55,7 +55,7 @@ color: orange;
 
 .header-title-description {
   width: 50%;
-  text-shadow: 2px 2px #000;
+  text-shadow: 2px 2px rgb(90, 89, 89);
   flex-direction: column;
   color: white;
 }
@@ -82,7 +82,7 @@ color: orange;
 
 
 .our-trips {
-  background-color: lightskyblue;
+  background-color: rgb(26, 120, 179);
   margin-top: 50px;
   padding: 3em;
 }
@@ -119,7 +119,7 @@ color: orange;
   font-size: 30px;
 }
 #aboutUs {
-  background-color: lightskyblue;
+  background-color: rgb(26, 120, 179);
   margin-top: 50px;
   padding: 5em;
 }
@@ -192,4 +192,5 @@ color: orange;
   vertical-align: middle;
   justify-content: center;
   margin-top: 1em;
+  color:white;
 }
