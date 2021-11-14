@@ -41,7 +41,7 @@ color: orange;
 
 .headerPage {
   display: flex;
-  background-image: url("image_header/beach.jpg");
+  background-image: url("image_header/lebanon.webp");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -193,4 +193,26 @@ color: orange;
   justify-content: center;
   margin-top: 1em;
   color:white;
+}
+
+#destinations {
+  margin-top: 100px;
+}
+
+.image-card :hover {
+  transform: scale(1.15);
+  transition: 1s;
+}
+
+.image-gallery h3 {
+  padding: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image-gallery {
+  margin: 10px;
+}
+.list-unstyled{
+  color: white;
 }

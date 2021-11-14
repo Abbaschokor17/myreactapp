@@ -8,7 +8,7 @@ export const TRIPS =
         label:'',
         price:'',
         featured: true,
-        description:'it has two of the largest and grandest Roman temple ruins: the Temple of Bacchus and the Temple of Jupiter.'                    
+        description:'Explore the ancient ruins and winemaking heritage of Lebanon on this full-day trip from Beirut, including lunch. With an expert guide, visit the age-old ruins at Baalbek, a stunning complex of Roman temples and buildings that made up the Roman city of Heliopolis. After a tour of the 8th-century Ummayad ruins at Anjar, finish at the Ksara Caves, a series of ancient caverns used as wine cellars by Lebanon’s oldest winery, Chateau Ksara. Tour the winery and cave cellars before your return to Beirut. Full-day trip to Baalbek, Anjar, and Ksara from Beirut'                    
         },
         {
         id: 1,
@@ -28,7 +28,7 @@ export const TRIPS =
         label:'',
         price:'',
         featured: true,
-        description:'Jeita grotto was chosen as an official finalist representing Lebanon and selected as one of the 14 worldwide landmarks for new 7 wonders of nature competition.'
+        description:'First visit Jeita Grotto, which was nominated as one of the 7 Wonders of the World, enjoy a scenic cable car ride up to the upper cave,after exploring, take a train ride down to the lower cave where you will take a boat ride under the river cavern. ThenWalk through the old souq, visit the Byblos Castle, Fossils Museum, Wax Museum, Byblos old port, and St Jean Marc Church.'
         },
         {
         id: 3,

@@ -8,7 +8,9 @@ import { PROMOTIONS } from '../shared/promotions';
 import { LEADERS } from '../shared/leaders';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
+import MainDestinations from './MainDestination';
 import Home from './HomeComponent';
+import ImageGallery from './ImageGallery';
 import Contact from './ContactComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import OurFeatures from './OurFeatures.js';
@@ -36,8 +38,11 @@ class Main extends Component {
               trip0={this.state.trips.filter((trip) => trip.featured)[0]}
               trip1={this.state.trips.filter((trip) => trip.featured)[1]}
               trip2={this.state.trips.filter((trip) => trip.featured)[2]}
+
             />
+              
             <OurFeatures />
+            <MainDestinations />
           </FadeIn>
         </div>
           
@@ -64,6 +69,7 @@ class Main extends Component {
           <Route path='/menu/:tripId' component={TripWithId} />
           <Route exact path='/contactus' component={Contact} />
           <Route exact path='/aboutus' component={AboutPage} />
+          <Route exact path='/gallery' component={ImageGallery} />
           <Redirect to="/home" />
         </Switch>
         <Footer/>     

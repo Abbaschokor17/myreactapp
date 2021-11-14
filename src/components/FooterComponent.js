@@ -30,6 +30,7 @@ function Footer(props) {
                     <li><Link to='/aboutus'>About Us</Link></li>
                     <li><Link to='/menu'>Places</Link></li>
                     <li><Link to='/contactus'>Contact Us</Link></li>
+                    <li><Link to='/gallery'>Gallery</Link></li>
                     </ul>
                 </div>
                 
