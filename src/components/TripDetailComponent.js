@@ -26,6 +26,7 @@ function RenderComments({comments}) {
                 { year: 'numeric', month: 'short', day: '2-digit'})
                 .format(new Date(Date.parse(comment.date)))}
                 </p>
+            
             </li>
         )
     });
@@ -43,6 +44,7 @@ function RenderComments({comments}) {
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star"></span>
             </ul>
+            <a href="/home" className="btn btn-primary">Book now</a>
         </div>
     );
 }
